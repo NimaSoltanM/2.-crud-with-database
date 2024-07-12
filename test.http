@@ -1,0 +1,17 @@
+GET http://localhost:8080/albums HTTP/1.1
+
+###
+GET http://localhost:8080/albums/123 HTTP/1.1
+
+
+###
+
+POST http://localhost:8080/albums HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "123",
+    "title": "toonel",
+    "artist": "nima",
+    "price": 12.99
+}
